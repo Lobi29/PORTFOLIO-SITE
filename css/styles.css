@@ -12,6 +12,8 @@ h1 {
     width: 700px;
     font-family: 'Sacramento', cursive;
     font-size: 90px;
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 h2 {
