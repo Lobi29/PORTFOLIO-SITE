@@ -12,22 +12,16 @@ h1 {
     width: 700px;
     font-family: 'Sacramento', cursive;
     font-size: 90px;
-    border: 2px solid red;
-    border-radius: 5px;
 }
 
 h2 {
     color: #66bfbf;
     font-family: 'Caveat Brush', cursive;
-    border: 2px solid red;
-    border-radius: 5px;
 }
 
 h3 {
     color: #11999e;
     font-family: 'Caveat Brush', cursive;
-    border: 2px solid red;
-    border-radius: 5px;
 }
 
 p {
