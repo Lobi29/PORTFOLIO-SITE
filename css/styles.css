@@ -19,11 +19,20 @@ h1 {
 h2 {
     color: #66bfbf;
     font-family: 'Caveat Brush', cursive;
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 h3 {
     color: #11999e;
     font-family: 'Caveat Brush', cursive;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+p {
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 a {
