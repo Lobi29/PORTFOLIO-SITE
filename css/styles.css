@@ -12,6 +12,7 @@ h1 {
     width: 700px;
     font-family: 'Sacramento', cursive;
     font-size: 90px;
+    text-shadow: 2px 2px 5px #04AA6D;
 }
 
 h2 {
