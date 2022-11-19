@@ -26,8 +26,10 @@ h3 {
 }
 
 p {
-    border: 2px solid red;
-    border-radius: 5px;
+    /* border: 2px solid red;
+    border-radius: 5px; */
+    padding: 5px 5px;
+    margin: 10px 10px;
 }
 
 a {
@@ -46,16 +48,10 @@ a {
     text-decoration: underline;
 }
 
-.top-cloud {
+.giffhy {
     position: absolute;
-    right: 200px;
+    right: 100px;
     top: 100px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 100px;
-    bottom: 300px;
 }
 
 .horizontal-row {
@@ -81,6 +77,12 @@ a {
     margin-left: 20px;
 }
 
+.CP-img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
 .getintouch {
     font-size: 30px;
 }
@@ -92,7 +94,7 @@ a {
 
 
 .bottom-container {
-    background-color: #66bfbf;
+    background-color: lightgreen;
     padding: 50px 0 20px 0;
     margin-top: 70px;
 }
