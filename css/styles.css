@@ -1,127 +1,36 @@
+/* styles for the portfolio home page  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oswald&display=swap');
+
 body {
-    background-color: #eaf6f6;
+    font-family: 'Caveat Brush', cursive;
     margin: 0;
-    font-family: 'Caveat Brush', cursive;
-    text-align: center;
+    padding: 0;
+}
+
+/* navigation-bar */
+ul {
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 
-h1 {
-    color: #66bfbf;
-    margin: 100px auto 0 auto;
-    width: 700px;
-    font-family: 'Sacramento', cursive;
-    font-size: 90px;
-    text-shadow: 2px 2px 5px #04AA6D;
-}
-
-h2 {
-    color: #66bfbf;
-    font-family: 'Caveat Brush', cursive;
-}
-
-h3 {
-    color: #11999e;
-    font-family: 'Caveat Brush', cursive;
-}
-
-p {
-    /* border: 2px solid red;
-    border-radius: 5px; */
-    padding: 5px 5px;
-    margin: 10px 10px;
-}
-
-a {
-    color: #11999e;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-
-.top-container {
-    background-color: #eaf6f6;
-    margin-bottom: 20px;
-}
-
-
-.pro {
-    text-decoration: underline;
-}
-
-.giffhy {
-    position: absolute;
-    right: 100px;
-    top: 100px;
-}
-
-.horizontal-row {
-    background-color: #EAF6F6;
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #11999e;
-    border-width: 5px;
-    height: 0px;
-    width: 100px;
-    margin-bottom: 100px;
-}
-
-.skill-row {
-    margin: 100px auto 100px auto;
-    text-align: left;
-    width: 50%;
-}
-
-.WB-img {
-    width: 30%;
+li {
     float: right;
-    margin-left: 20px;
 }
 
-.CP-img {
-    width: 30%;
-    float: left;
-    margin-right: 20px;
-}
-
-.getintouch {
-    font-size: 30px;
-}
-
-.intro {
-    margin: auto;
-    width: 30%;
-}
-
-
-.bottom-container {
-    background-color: lightgreen;
-    padding: 50px 0 20px 0;
-    margin-top: 70px;
-}
-
-.btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #11cdd4, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #11cdd4, #2bc4ad);
-    background-image: -o-linear-gradient(top, #11cdd4, #2bc4ad);
-    background-image: linear-gradient(to bottom, #11cdd4, #2bc4ad);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Caveat Brush', cursive;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+li a{
+    display: block;
     text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-  }
+    text-align: center;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    color: #111;
+}
+
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgba(255,0,0,1));
+}
