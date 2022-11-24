@@ -91,13 +91,12 @@ li a:hover:not(.active) {
 }
 
 
-/* middle-container */
+/* middle1-container */
 
-.middle-container {
-    border-radius: 0px 100px 0px 100px;
+.middle1-container {
+    position: relative;
     background-color: #3cb0fd;
     text-align: center;
-    padding: 20px 0px;
     /* color: white; */
 }
 
@@ -109,38 +108,92 @@ li a:hover:not(.active) {
     margin: auto;
 }
 
+.custom-shape-divider-top-1669295804 {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1669295804 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1669295804 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.custom-shape-divider-bottom-1669295410 {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669295410 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1669295410 .shape-fill {
+    fill: #FFFFFF;
+}
 
 
 
 
 
-
-
+/* middle2 container  */
+.middle2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
 
 .skill-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-
-    border: 1px solid #ccc;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #ccc;
     border-radius: 10px;
-    padding: 10px;
-    
-    width: 300px;
-    height: 200px;
 }
+
+.skill-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 10px;
+
+}
+
+
+
 
 
 
@@ -188,6 +241,7 @@ li a:hover:not(.active) {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+
 
 
   /* icon  */
