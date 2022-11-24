@@ -1,6 +1,10 @@
 /* styles for the portfolio home page  */
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oswald&display=swap');
 
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
     font-family: 'Caveat Brush', cursive;
     margin: 0;
@@ -193,6 +197,49 @@ li a:hover:not(.active) {
 }
 
 
+/* form-container  */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-section {
+    width: 400px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  input[type=submit] {
+    background-color: #11cdd4;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif; 
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3cb0fd;
+  }
+
+
 
 
 
@@ -202,9 +249,8 @@ li a:hover:not(.active) {
 /* footer  */
 .footer {
     margin-top: 100px;
-    background-color: #11cdd4;
     padding: 100px;
-    text-align: center;
+    background-color: #11cdd4;
 }
 
 
