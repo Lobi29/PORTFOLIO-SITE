@@ -1,6 +1,9 @@
 /* styles for the portfolio home page  */
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oswald&display=swap');
 
+
+/* background-color: rgb(38, 21, 147); */
+
 h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
 }
@@ -32,7 +35,7 @@ li a{
     text-align: center;
     margin: 0px 10px;
     padding: 20px 20px;
-    color: #111;
+    color: red;
 }
 
 li a:hover:not(.active) {
@@ -41,7 +44,8 @@ li a:hover:not(.active) {
 }
 
 #grad {
-    background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgba(255,0,0,1));
+    /* background-image: linear-gradient(to right, rgba(60,176,253,0.2), rgba(60,176,253,1)); */
+    background-color: rgb(40, 33, 34);
 }
 
 
@@ -79,7 +83,7 @@ li a:hover:not(.active) {
 
 
 .software-engineer {
-    background-color: lightpink;
+    background-color: rgb(40, 33, 34);
     width: 50%;
     margin: auto;
     border-radius: 10px;
@@ -197,6 +201,105 @@ li a:hover:not(.active) {
 }
 
 
+
+/* portfolio  */
+
+.middle3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0px;
+}
+
+
+.project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+}
+
+
+.description {
+    width: 300px;
+    padding: 10px;
+}
+
+.project-heading {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #111;
+    
+}
+
+.description-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-img {
+    width: 300px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+
+
+
+
+ /* more repository (rest projects) and meeting */
+
+.middle4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #3cb0fd;
+}
+
+.more-repo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+}
+
+.virtual-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* form-container  */
 .form-container {
     display: flex;
@@ -248,9 +351,21 @@ input[type=text], select, textarea {
 
 /* footer  */
 .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
-    padding: 100px;
-    background-color: #11cdd4;
+    padding: 0px 100px;
+    background-color: rgb(40, 33, 34);
+    color: red;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 
@@ -297,3 +412,9 @@ input[type=text], select, textarea {
     padding: 20px;
     color: #3cb0fd;
   }
+
+  .footer-icon {
+    color: red;
+    padding: 10px;
+  }
+
