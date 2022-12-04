@@ -1,0 +1,59 @@
+/* styles for the portfolio home page  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Kdam+Thmor+Pro&family=Oswald&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: 'Caveat Brush', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation-bar */ 
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background-color: #4e7da1;
+    color: white;
+}
+
+.navigation h1 {
+    font-family: var(--font1);
+}
+
+.navigation .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation .nav-left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation .nav-left ul li a {
+    font-family: var(--font3);
+    font-size: 20px;
+}
+
+
+.navigation .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
