@@ -37,6 +37,15 @@ input[type=text] {
 
 
 
+/* horizontal line  */
+.horizontal-line {
+    height: 2px;
+    margin: 50px auto;
+    border: 0;
+    background-color: white;
+}
+
+
 
 /* button css properties */
 
@@ -50,16 +59,17 @@ input[type=text] {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    border-color: #2bc4ad;
+    border: 0px;
+    /* border-color: #2bc4ad; */
     font-family: 'Caveat Brush', cursive;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-
-  }
+    cursor: pointer;
+}
   
-  .btn:hover {
+.btn:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -67,4 +77,4 @@ input[type=text] {
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
-  }
+}
