@@ -9,7 +9,7 @@ body {
     font-family: 'Caveat Brush', cursive;
     margin: 0;
     padding: 0;
-    background-image: url(/image/top\ background.png), linear-gradient(#172530, #4e7da1);
+    background-image: url(/PORTFOLIO-SITE/image/top\ background.png), linear-gradient(#172530, #4e7da1);
     background-size: contain;
     background-repeat: no-repeat;
 }
