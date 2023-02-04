@@ -2,28 +2,28 @@
 // Set data for the testimonials slider
 const userData = [
     [
-        "/images/user1.jpg",
-        "/images/user1.jpg",
-        "/images/user1.jpg",
-        "/images/user1.jpg"
+        "/PORTFOLIO-SITE/images/user1.jpg",
+        "PORTFOLIO-SITE/images/user1.jpg",
+        "/PORTFOLIO-SITE/images/user1.jpg",
+        "/PORTFOLIO-SITE/images/user1.jpg"
     ],
     [
-        "Really good. I couldn't have asked for more than this. I would like to personally thank you for your outstanding prooduct.",
-        "Really good. I couldn't have asked for more than this. I would like to personally thank you for your outstanding prooduct.",
-        "Really good. I couldn't have asked for more than this. I would like to personally thank you for your outstanding prooduct.",
-        "Really good. I couldn't have asked for more than this. I would like to personally thank you for your outstanding prooduct."
+        "Really good programmer",
+        "great performer",
+        "teamworker",
+        "Best Creator"
     ],
     [
-        "Laditya Gogoi",
         "Chao Lobi",
-        "Juganta Gogoi",
-        "Sunil Gogoi"
+        "Hrishyak Kalita",
+        "Sandeep Kharketri",
+        "Sumit shah"
     ],
     [
-        "CEO of BeServer",
-        "Developer at BeServer",
+        "CEO of Gogle",
+        "Developer at Amzon",
         "Content Creator",
-        "CEO of Seone"
+        "CEO of aple"
     ]
 ];
 
@@ -56,6 +56,6 @@ for (let i = 0; i < pag.length; i++)
         // set user name 
         userName.innerHTML = userData[2][i];
         // set user title
-        userName.innerHTML = userData[3][i];
+        userTitle.innerHTML = userData[3][i];
     });
 }
